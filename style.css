@@ -126,6 +126,41 @@ img.b {
     z-index: 10;
 }
 
+
+/* Sections Geral */
+section#sobre-nos, 
+section#projetos, #mascote{
+    animation: fade-In 0.3s ease-in forwards;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30vh;
+    background: linear-gradient(45deg, #8A2BE2, #6a0dad, #36005d);
+    min-height: 5vh;
+    width: 20vh;
+    border-radius: 10px;
+    animation: fade-In 0.3s ease-in forwards;
+}
+#projetos{
+    cursor: wait;
+}
+#mascote{
+    margin-block: 0 -10vh;
+}
+#redes {
+    margin-bottom: 5vh;
+    cursor: default;
+    animation: fade-In 0.3s ease-in forwards;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30vh;
+    background: linear-gradient(45deg, #8A2BE2, #6a0dad, #36005d);
+    min-height: 5vh;
+    width: 20vh;
+    border-radius: 10px;
+    animation: fade-In 0.3s ease-in forwards;
+}
 /*Seção Introdução*/
 .texto {
     animation: fade-In 0.3s ease-in forwards;
@@ -150,41 +185,6 @@ section#introducao {
     border-radius: 10px;
     position: relative;
     z-index: 1;
-}
-
-/* Sections Geral */
-section#sobre-nos, 
-section#projetos, #mascote{
-    animation: fade-In 0.3s ease-in forwards;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 30vh;
-    background: linear-gradient(45deg, #8A2BE2, #6a0dad, #36005d);
-    min-height: 5vh;
-    width: 20vh;
-    border-radius: 10px;
-    animation: fade-In 0.3s ease-in forwards;
-}
-#projetos{
-    cursor: wait;
-}
-#mascote{
-    margin-block: 0 100vh;
-}
-#redes {
-    margin-bottom: 5vh;
-    cursor: default;
-    animation: fade-In 0.3s ease-in forwards;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 30vh;
-    background: linear-gradient(45deg, #8A2BE2, #6a0dad, #36005d);
-    min-height: 5vh;
-    width: 20vh;
-    border-radius: 10px;
-    animation: fade-In 0.3s ease-in forwards;
 }
 /*Seçção Sobre*/
 .sobrecenter{ /*Centraliza os conteúdos*/
